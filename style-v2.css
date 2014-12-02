@@ -1,0 +1,267 @@
+/*@import "compass/reset";*/
+/* Colours */
+/* Global Settings */
+/* Body */
+/* Colums */
+/* Header Footer */
+/* line 1, content/assets/style/_html.scss */
+html {
+  font-size: small;
+}
+
+/* Set initial Global settings */
+/* Links */
+/* line 5, content/assets/style/_global.scss */
+a {
+  color: #228B22;
+}
+/* line 7, content/assets/style/_global.scss */
+a:link {
+  text-decoration: none;
+}
+/* line 8, content/assets/style/_global.scss */
+a:visited {
+  text-decoration: none;
+}
+/* line 9, content/assets/style/_global.scss */
+a:hover {
+  text-decoration: underline;
+}
+/* line 10, content/assets/style/_global.scss */
+a:active {
+  text-decoration: underline;
+}
+
+/* line 13, content/assets/style/_global.scss */
+hr {
+  border: 0px;
+  border-top: 1px solid #8cacbb;
+  text-align: center;
+  height: 0px;
+}
+
+/*
+.hidden { display: none; 
+}
+*/
+/* line 23, content/assets/style/_global.scss */
+.toggle {
+  color: #8cacbb;
+}
+/* line 25, content/assets/style/_global.scss */
+.toggle:link {
+  text-decoration: none;
+}
+/* line 26, content/assets/style/_global.scss */
+.toggle:visited {
+  text-decoration: none;
+}
+/* line 27, content/assets/style/_global.scss */
+.toggle:hover {
+  text-decoration: underline;
+}
+/* line 28, content/assets/style/_global.scss */
+.toggle:active {
+  text-decoration: underline;
+}
+
+/*.unhidden { display: block; }*/
+/* line 1, content/assets/style/md/_math.scss */
+html {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+/* line 5, content/assets/style/md/_math.scss */
+body {
+  padding: 0;
+  border: 0;
+  margin: 30px;
+  font-size: 78%;
+  font-family: "Lucida Grande";
+  word-wrap: break-word;
+}
+
+/* line 13, content/assets/style/md/_math.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
+/* line 17, content/assets/style/md/_math.scss */
+h1, h2, h3 {
+  /*font-family: "HelveticaNeue-Bold";*/
+  border-bottom: 1px solid #8cacbb;
+}
+
+/* line 21, content/assets/style/md/_math.scss */
+h1 {
+  font-size: 170%;
+}
+
+/* line 24, content/assets/style/md/_math.scss */
+h2 {
+  font-size: 140%;
+}
+
+/* line 27, content/assets/style/md/_math.scss */
+h3 {
+  font-size: 120%;
+}
+
+/* line 30, content/assets/style/md/_math.scss */
+h4 {
+  font-size: 100%;
+  display: inline;
+  border-bottom: 1px solid #8cacbb;
+}
+
+/* line 35, content/assets/style/md/_math.scss */
+h5 {
+  font-size: 100%;
+  display: inline;
+  border-bottom: 3px double #8cacbb;
+  line-height: 1.7em;
+}
+
+/* line 41, content/assets/style/md/_math.scss */
+h6 {
+  font-style: italic;
+  font-size: 100%;
+}
+
+/* line 46, content/assets/style/md/_math.scss */
+pre, code {
+  font-family: HelveticaNeue;
+  /* second generic font fixes problem with font-size, see
+     http://meyerweb.com/eric/thoughts/2010/02/12/fixed-monospace-sizing/ */
+  font-size: 100%;
+}
+
+/* line 53, content/assets/style/md/_math.scss */
+pre {
+  padding: 0.5em;
+  border: 1px dashed #eef3f8;
+  background-color: #eef3f8;
+  overflow: auto;
+}
+
+/* line 60, content/assets/style/md/_math.scss */
+dt {
+  font-weight: bold;
+}
+
+/* line 63, content/assets/style/md/_math.scss */
+dd {
+  background-color: #eef3f8;
+}
+
+/* line 68, content/assets/style/md/_math.scss */
+blockquote {
+  border-left: 2px solid #8cacbb;
+  padding-left: 3px;
+}
+
+/* line 73, content/assets/style/md/_math.scss */
+table {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 24px;
+  border-bottom: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-spacing: 0;
+}
+
+/* line 81, content/assets/style/md/_math.scss */
+table th {
+  padding: 3px 10px;
+  background-color: #eee;
+  border-top: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+}
+
+/* line 89, content/assets/style/md/_math.scss */
+table td {
+  padding: 3px 10px;
+  border-top: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+}
+
+/* line 94, content/assets/style/md/_math.scss */
+table {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 24px;
+  border-bottom: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-spacing: 0;
+}
+
+/* line 102, content/assets/style/md/_math.scss */
+table caption {
+  margin: 5px;
+  text-align: center;
+  caption-side: bottom;
+}
+
+/* line 107, content/assets/style/md/_math.scss */
+table th {
+  padding: 3px 10px;
+  background-color: #eee;
+  border-top: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+}
+
+/* line 115, content/assets/style/md/_math.scss */
+table td {
+  padding: 3px 10px;
+  border-top: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+}
+
+/* line 120, content/assets/style/md/_math.scss */
+figure {
+  display: block;
+  text-align: center;
+}
+
+/* Alternative table seetings 
+table {
+  border: solid black;
+  border-width: 2px 0px;
+  empty-cells: hide;
+  border-spacing: 0px;
+  padding: 2px;
+  margin: 20px auto;
+}
+table caption {
+  margin: 5px;
+  text-align: center;
+  caption-side: bottom;
+}
+thead th {
+  border: solid gray;
+  border-width: 0 0 2px 0;
+  padding: 5px;
+}
+thead > tr:last-child > th { border-style: none; }
+tbody > tr:first-child > td {
+  border: solid gray;
+  border-width: 1px 0 0 0;
+}
+tbody > tr:first-child > th {
+  border: solid gray;
+  border-width: 1px 0 0 0;
+}
+thead + tbody > tr:first-child > td {
+  border: solid black;
+  border-width: 1px 0 0 0;
+}
+thead + tbody > tr:first-child > th {
+  border: solid black;
+  border-width: 1px 0 0 0;
+}
+figure {
+  padding: 0px;
+  margin: 0px;
+}
+*/
